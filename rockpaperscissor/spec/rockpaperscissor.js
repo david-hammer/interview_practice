@@ -9,11 +9,7 @@ describe('rockpaperscissor()', function () {
   });
 
   it('does something', function () {
-    expect(true).to.equal(false);
-  });
-
-  it('does something else', function () {
-    expect(true).to.equal(false);
+    expect(rockpaperscissor(3).length).to.equal(27);
   });
 
   // Add more assertions here
